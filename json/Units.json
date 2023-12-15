@@ -7,7 +7,7 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Invisible to others"],
 		"cost": 70
 	},
 	{
@@ -22,7 +22,7 @@
 	{
 		"name": "Scout",
 		"unitType": "Scout",
-		"movement": 2,
+		"movement": 3,
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
@@ -38,7 +38,7 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "Can instantly construct a [All] improvement <by consuming this unit>"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
