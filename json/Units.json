@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Goat",
+        "unitType": "Civilian", 
+        "movement": 1, 
+        "strength": 2, 
+        "cost": 15, 
+        "upgradesTo": "scout", 
+        "uniques": ["All tile cost 1 movement"],
+
+
+
+
+
+
+
+
+
+
+
+    }      
+]
