@@ -9,9 +9,19 @@
         "uniques": ["All tile cost 1 movement"],
 
 
-
-
-
+        "name": "Ne goat",
+        "unitType": "Civilian",
+        "movement": 2, 
+        "strength": 7, 
+        "cost": 15,
+        "uniques": "Can transform to [Labiau ne goat]"
+        
+        "name": "Labiau ne goat",
+        "unitType": "Civilian",
+        "movement": 2, 
+        "strength": 7, 
+        "cost": 15,
+        "uniques": "Can transform to [Ne goat]"
 
 
 
