@@ -1,3235 +1,1462 @@
-Construction.png
+
+game.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/District-Shipping Center
+CityStateIcons/Cultured
   rotate: false
-  xy: 622, 460
+  xy: 127, 1219
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Muhammad
+CityStateIcons/Maritime
   rotate: false
-  xy: 406, 574
+  xy: 1939, 1823
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
-  index: -1  
-UnitIcons/Confucius
+  index: -1
+CityStateIcons/Mercantile
   rotate: false
-  xy: 406, 574
+  xy: 535, 1577
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
-  index: -1    
-UnitIcons/Gautama Siddhartha
+  index: -1
+CityStateIcons/Militaristic
   rotate: false
-  xy: 406, 574
+  xy: 643, 1592
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
-  index: -1      
-UnitIcons/Jesus
+  index: -1
+CityStateIcons/Religious
   rotate: false
-  xy: 406, 574
+  xy: 1723, 1499
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
-  index: -1      
-UnitIcons/Henri Philippe Pétain
+  index: -1
+EmojiIcons/Automate
   rotate: false
-  xy: 406, 682
-  size: 100, 94
-  orig: 100, 94
-  offset: 0, 0
-  index: -1    
-UnitIcons/Belisarius
-  rotate: false
-  xy: 406, 682
-  size: 100, 94
-  orig: 100, 94
-  offset: 0, 0
-  index: -1    
-
-PolicyIcons.png
-size: 2048, 128
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-PolicyIcons/共同信仰
-  rotate: false
-  xy: 526, 62
+  xy: 436, 432
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/部族扩张
+EmojiIcons/Culture
   rotate: false
-  xy: 120, 62
+  xy: 436, 258
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/阶级统治
+EmojiIcons/Death
+  rotate: false
+  xy: 436, 200
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Faith
+  rotate: false
+  xy: 436, 142
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Food
+  rotate: false
+  xy: 436, 84
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Gold
+  rotate: false
+  xy: 494, 432
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Great Artist
+  rotate: false
+  xy: 494, 374
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Great Engineer
+  rotate: false
+  xy: 494, 316
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Great General
+  rotate: false
+  xy: 494, 258
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Great Merchant
+  rotate: false
+  xy: 494, 200
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Great Scientist
+  rotate: false
+  xy: 494, 142
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Happiness
+  rotate: false
+  xy: 494, 84
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Production
+  rotate: false
+  xy: 544, 1087
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Science
+  rotate: false
+  xy: 544, 913
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Turn
+  rotate: false
+  xy: 544, 797
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Academy
+  rotate: false
+  xy: 736, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Ancient ruins
+  rotate: false
+  xy: 952, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Barbarian encampment
+  rotate: false
+  xy: 4, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Camp
+  rotate: false
+  xy: 1276, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Cancel improvement order
+  rotate: false
+  xy: 4, 477
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Stop
+  rotate: false
+  xy: 4, 477
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Citadel
+  rotate: false
+  xy: 1492, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/City center
+  rotate: false
+  xy: 4, 153
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/City ruins
+  rotate: false
+  xy: 1708, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Customs house
+  rotate: false
+  xy: 119, 1111
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Farm
+  rotate: false
+  xy: 535, 1793
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Fishing Boats
+  rotate: false
+  xy: 643, 1808
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Fort
+  rotate: false
+  xy: 751, 1823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Holy site
+  rotate: false
+  xy: 1075, 1823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Landmark
+  rotate: false
+  xy: 1399, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Lumber mill
+  rotate: false
+  xy: 1615, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Manufactory
+  rotate: false
+  xy: 1723, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Mine
+  rotate: false
+  xy: 751, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Moai
+  rotate: false
+  xy: 859, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Offshore Platform
+  rotate: false
+  xy: 1615, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Oil well
+  rotate: false
+  xy: 1831, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Pasture
+  rotate: false
+  xy: 412, 1529
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Plantation
+  rotate: false
+  xy: 514, 1145
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Polder
+  rotate: false
+  xy: 643, 1484
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Quarry
+  rotate: false
+  xy: 1183, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Railroad
+  rotate: false
+  xy: 1615, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout
+  rotate: false
+  xy: 1939, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Forest
+  rotate: false
+  xy: 751, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Jungle
+  rotate: false
+  xy: 751, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Marsh
+  rotate: false
+  xy: 967, 1392
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Railroad
+  rotate: false
+  xy: 1075, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Road
+  rotate: false
+  xy: 1183, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Repair
+  rotate: false
+  xy: 1291, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Road
+  rotate: false
+  xy: 1615, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Terrace farm
+  rotate: false
+  xy: 328, 671
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Trading post
+  rotate: false
+  xy: 328, 455
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/EnhanceReligion
+  rotate: false
+  xy: 112, 139
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/FoundPantheon
+  rotate: false
+  xy: 112, 139
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/FoundReligion
+  rotate: false
+  xy: 112, 139
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/ReformReligion
+  rotate: false
+  xy: 112, 139
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Faith
+  rotate: false
+  xy: 112, 139
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/Loading
+  rotate: false
+  xy: 1507, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/Working
+  rotate: false
+  xy: 1507, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Loading
+  rotate: false
+  xy: 1507, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/PickConstruction
+  rotate: false
+  xy: 520, 1469
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Production
+  rotate: false
+  xy: 520, 1469
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/PickPolicy
   rotate: false
   xy: 4, 4
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+NotificationIcons/PickTech
+  rotate: false
+  xy: 514, 1361
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Science
+  rotate: false
+  xy: 514, 1361
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/AirSweep
+  rotate: false
+  xy: 844, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Aircraft
+  rotate: false
+  xy: 235, 1269
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/军事传统
+OtherIcons/ArrowRight
   rotate: false
-  xy: 700, 62
+  xy: 443, 1147
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-
-
-                
-                             
-                                          
-                                                       
-                                                                                 
-Tech.png
-size: 2048, 1024
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-TechIcons/农业
+NotificationIcons/MoveAutomatedUnits
   rotate: false
-  xy: 112, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/制陶
-  rotate: false
-  xy: 868, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/狩猎
-  rotate: false
-  xy: 220, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/文字
-  rotate: false
-  xy: 544, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/历法
-  rotate: false
-  xy: 328, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/畜牧业
-  rotate: false
-  xy: 4, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/采矿
-  rotate: false
-  xy: 436, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/骑术
-  rotate: false
-  xy: 112, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/帆船
-  rotate: false
-  xy: 1084, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/打猎
-  rotate: false
-  xy: 1300, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/石工术
-  rotate: false
-  xy: 652, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/青铜器
-  rotate: false
-  xy: 220, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/数学
-  rotate: false
-  xy: 868, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/建筑设计学
-  rotate: false
-  xy: 4, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/经济学
-  rotate: false
-  xy: 112, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/戏剧与诗歌
-  rotate: false
-  xy: 220, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/铁器
-  rotate: false
-  xy: 328, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/光学
-  rotate: false
-  xy: 220, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/工程学
-  rotate: false
-  xy: 220, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/哲学
-  rotate: false
-  xy: 544, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/行会
-  rotate: false
-  xy: 760, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/工业伊始
-  rotate: false
-  xy: 544, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/骑士制度
-  rotate: false
-  xy: 4, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/神学
-  rotate: false
-  xy: 1192, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/罗盘
-  rotate: false
-  xy: 436, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/教育学
-  rotate: false
-  xy: 652, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/兵器储备
-  rotate: false
-  xy: 760, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
- TechIcons/化学
-  rotate: false
-  xy: 436, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/银行业
-  rotate: false
-  xy: 4, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/声学
-  rotate: false
-  xy: 4, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-TechIcons/天文学
-  rotate: false
-  xy: 112, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-TechIcons/火药
-  rotate: false
-  xy: 4, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/合金
-  rotate: false
-  xy: 220, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-TechIcons/金融业
-  rotate: false
-  xy: 544, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/建筑学
-  rotate: false
-  xy: 4, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/航海术
-  rotate: false
-  xy: 760, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/印刷术
-  rotate: false
-  xy: 976, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/考古学
-  rotate: false
-  xy: 112, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/科学理论
-  rotate: false
-  xy: 436, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/生物学
-  rotate: false
-  xy: 112, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/电学
-  rotate: false
-  xy: 4, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/工业化
-  rotate: false
-  xy: 220, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/蒸汽机
-  rotate: false
-  xy: 652, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/膛线
-  rotate: false
-  xy: 760, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/军事科学
-  rotate: false
-  xy: 328, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/炸药
-  rotate: false
-  xy: 328, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/化肥
-  rotate: false
-  xy: 328, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/铁路
-  rotate: false
-  xy: 436, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/制冷
-  rotate: false
-  xy: 544, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/精密零件
-  rotate: false
-  xy: 652, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/无线电
-  rotate: false
-  xy: 328, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/航空
-  rotate: false
-  xy: 436, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/电子学
-  rotate: false
-  xy: 112, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/塑料
-  rotate: false
-  xy: 760, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/弹道学
-  rotate: false
-  xy: 328, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/内燃机
-  rotate: false
-  xy: 328, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/联合国
-  rotate: false
-  xy: 652, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/粒子物理
-  rotate: false
-  xy: 328, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/制药学
-  rotate: false
-  xy: 436, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/原子理论
-  rotate: false
-  xy: 220, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/雷达
-  rotate: false
-  xy: 1084, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/协同作战
-  rotate: false
-  xy: 220, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/电子计算机
-  rotate: false
-  xy: 544, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/机器人学
-  rotate: false
-  xy: 868, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/火箭
-  rotate: false
-  xy: 976, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/核裂变
-  rotate: false
-  xy: 868, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/核聚变
-  rotate: false
-  xy: 976, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/生态学
-  rotate: false
-  xy: 436, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/远程通信
-  rotate: false
-  xy: 868, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/机动战术
-  rotate: false
-  xy: 544, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-TechIcons/高等弹道学
-  rotate: false
-  xy: 4, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-TechIcons/人造卫星
-  rotate: false
-  xy: 1192, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-TechIcons/激光
-  rotate: false
-  xy: 436, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/隐形技术
-  rotate: false
-  xy: 544, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/纳米技术
-  rotate: false
-  xy: 652, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/未来科技
-  rotate: false
-  xy: 544, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-
-UnitPromotionIcons.png
-size: 2048, 128
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-UnitPromotionIcons/Quick Offensive
-  rotate: false
-  xy: 576, 62
+  xy: 443, 1147
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Rejuvenation
+NotificationIcons/NextUnit
   rotate: false
-  xy: 1968, 62
+  xy: 443, 1147
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Detection
+StatIcons/Movement
   rotate: false
-  xy: 112, 4
+  xy: 443, 1147
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Alert
+OtherIcons/BackArrow
   rotate: false
-  xy: 112, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-UnitPromotionIcons/Continuous Attack
-  rotate: false
-  xy: 1620, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1   
-UnitPromotionIcons/Hide
-  rotate: false
-  xy: 576, 4
+  xy: 436, 374
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Attack City
+OtherIcons/Banner
   rotate: false
-  xy: 518, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Storm Fortification
-  rotate: false
-  xy: 518, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-UnitPromotionIcons/Break City
-  rotate: false
-  xy: 518, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Detonate
-  rotate: false
-  xy: 518, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1        
-UnitPromotionIcons/Pinpoint Bombing
-  rotate: false
-  xy: 518, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1    
-UnitPromotionIcons/Rescue
-  rotate: false
-  xy: 1736, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Grab Beach
-  rotate: false
-  xy: 344, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Sealift
-  rotate: false
-  xy: 344, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Additional Range
-  rotate: false
-  xy: 1098, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Carrying Missile
-  rotate: false
-  xy: 692, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Saturation Bombing
-  rotate: false
-  xy: 692, 62
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-UnitPromotionIcons/Continuous Interception
-  rotate: false
-  xy: 286, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-
-
-Bonfire.png
-BuildingIcons/Bonfire
-  rotate: false
-  xy: 0,0
+  xy: 1060, 1931
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-  
-Kiln.png
-BuildingIcons/Kiln
+UnitTypeIcons/UnitTypes
   rotate: false
-  xy: 0,0
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-  
-Sundial.png
-BuildingIcons/Sundial
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-
-Grave.png
-BuildingIcons/Grave
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-    
-District-StudenicaMonastery.png
-BuildingIcons/District-Studenica Monastery
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1    
-    
-Fair.png
-BuildingIcons/Fair
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1    
-    
-SchoolofPhilosophy.png
-BuildingIcons/School of Philosophy
-  rotate: false
-  xy: 0,0
-  size: 30, 30
-  orig: 30, 30
-  offset: 0, 0
-  index: -1
-  
-Smithy.png
-BuildingIcons/Smithy
-  rotate: false
-  xy: 0,0
-  size: 75, 75
-  orig: 75, 75
-  offset: 0, 0
-  index: -1
-  
-Blockhouse.png
-BuildingIcons/Blockhouse
-  rotate: false
-  xy: 0,0
+  xy: 1060, 1931
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-  
-PrintingHouse.png
-BuildingIcons/Printing House
+OtherIcons/Blockade
   rotate: false
-  xy: 0,0
-  size: 60, 60
-  orig: 60, 60
+  xy: 289, 1715
+  size: 130, 130
+  orig: 130, 130
   offset: 0, 0
   index: -1
-  
-ShareExchange.png
-BuildingIcons/Share Exchange
+OtherIcons/Camera
   rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-  
-ForeignMinistry.png
-BuildingIcons/Foreign Ministry
-  rotate: false
-  xy: 0,0
-  size: 38, 38
-  orig: 38, 38
-  offset: 0, 0
-  index: -1
-  
-MinistryofDefense.png
-BuildingIcons/Ministry of Defense
-  rotate: false
-  xy: 0,0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1  
-  
-NationalCourt.png
-BuildingIcons/National Court
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-  
-FishingPort.png
-BuildingIcons/Fishing Port
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-  
-Canal.png
-BuildingIcons/Canal
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-  
-NationalCanal.png
-BuildingIcons/National Canal
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-  
-WorldExpo.png
-BuildingIcons/World Expo
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1    
-  
-FertilizerPlant.png
-BuildingIcons/Fertilizer Plant
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-
-ChemicalPlant.png
-BuildingIcons/Chemical Plant
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-  
-Tunnel.png
-BuildingIcons/Tunnel
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-  
-RockeryGarden.png
-BuildingIcons/Rockery Garden
-  rotate: false
-  xy: 0,0
-  size: 40, 40
-  orig: 40, 40
-  offset: 0, 0
-  index: -1  
-  
-Coal-FiredPowerPlant.png
-BuildingIcons/Coal-Fired Power Plant
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-
-Oil-FiredPowerPlant.png
-BuildingIcons/Oil-Fired Power Plant
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-
-Gas-FiredPowerPlant.png
-BuildingIcons/Gas-Fired Power Plant
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-  
-FuelFabricationPlant.png
-BuildingIcons/Fuel Fabrication Plant
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1    
-  
-NationalTaxBureau.png
-BuildingIcons/National Tax Bureau
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1    
-  
-Column.png
-BuildingIcons/Column
-  rotate: false
-  xy: 0,0
-  size: 40, 54
-  orig: 40, 54
-  offset: 0, 0
-  index: -1    
- 
-GanduoPrimarySchool.png
-BuildingIcons/Ganduo Primary School
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1   
-
-ImperialCourt.png
-BuildingIcons/Imperial Court
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-
-GrandManor.png
-BuildingIcons/Grand Manor
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-
-MinaretofJam.png
-BuildingIcons/Minaret of Jam
-  rotate: false
-  xy: 0,0
-  size: 80, 120
-  orig: 80, 120
-  offset: 0, 0
-  index: -1
-  
-JokhangTemple.png
-BuildingIcons/Jokhang Temple
-  rotate: false
-  xy: 0,0
-  size: 105, 105
-  orig: 105, 105
-  offset: 0, 0
-  index: -1  
-    
-Military Royal School.png
-BuildingIcons/Military Royal School
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1 
-    
-MilitaryPort.png
-BuildingIcons/Military Port
-  rotate: false
-  xy: 0,0
-  size: 90, 70
-  orig: 90, 70
-  offset: 0, 0
-  index: -1       
-    
-AncientCastle.png
-BuildingIcons/Ancient Castle
-  rotate: false
-  xy: 0,0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1       
-    
-PanamaCanal.png
-BuildingIcons/Panama Canal
-  rotate: false
-  xy: 0,0
-  size: 90, 70
-  orig: 90, 70
-  offset: 0, 0
-  index: -1       
-    
-CubanCapitol.png
-BuildingIcons/Cuban Capitol
-  rotate: false
-  xy: 0,0
-  size: 110, 110
-  orig: 110, 110
-  offset: 0, 0
-  index: -1
-    
-GalataTower.png
-BuildingIcons/Galata Tower
-  rotate: false
-  xy: 0,0
-  size: 250, 250
-  orig: 250, 250
-  offset: 0, 0
-  index: -1   
-
-IncaPyramid.png
-BuildingIcons/Inca Pyramid
-  rotate: false
-  xy: 0,0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1     
-    
-District-Country.png
-BuildingIcons/District-Country
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-  
-District-Commercial Centre.png
-BuildingIcons/District-Commercial Centre
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-  
-District-Military Center.png
-BuildingIcons/District-Military Center
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-
-District-Cultural Center.png
-BuildingIcons/District-Cultural Center
-  rotate: false
-  xy: 0,0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-  
-District-Infrastructure Center.png
-BuildingIcons/District-Infrastructure Center
-  rotate: false
-  xy: 0,0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-  
-District-Government.png
-BuildingIcons/District-Government
-  rotate: false
-  xy: 0,0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
- 
-District-Industrial Centre.png
-BuildingIcons/District-Industrial Centre
-  rotate: false
-  xy: 0,0
-  size: 550, 550
-  orig: 550, 550
-  offset: 0, 0
-  index: -1
-  
-District-Scientific Research Center.png
-BuildingIcons/District-Scientific Research Center
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-
-District-Religious Cente.png
-BuildingIcons/District-Religious Cente
-  rotate: false
-  xy: 0,0
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1  
-
-District-Acropolis.png
-BuildingIcons/District-Acropolis
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-
-District-LavraMonastery.png
-BuildingIcons/District-Lavra Monastery
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-
-District-Cothon.png
-BuildingIcons/District-Cothon
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-
-District-RedSquare.png
-BuildingIcons/District-Red Square
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-
-District-Racetrack.png
-BuildingIcons/District-Racetrack
-  rotate: false
-  xy: 0,0
-  size: 101, 101
-  orig: 101, 101
-  offset: 0, 0
-  index: -1
-
-District-ChineseCivilization.png
-BuildingIcons/District-Chinese Civilization
-  rotate: false
-  xy: 0,0
-  size: 120, 120
-  orig: 120, 120
-  offset: 0, 0
-  index: -1
-
-WeatherController.png
-BuildingIcons/Weather Controller
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-
-FrenchCastle.png
-BuildingIcons/French Castle
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-  
-KoreanAcademy.png
-BuildingIcons/Korean Academy
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-  
-Posthouse.png
-BuildingIcons/Posthouse
-  rotate: false
-  xy: 0,0
-  size: 70, 40
-  orig: 70, 40
-  offset: 0, 0
-  index: -1
-  
-TombMound.png
-BuildingIcons/Tomb Mound
-  rotate: false
-  xy: 0,0
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1  
-  
-Governor.png
-BuildingIcons/Governor-Magnus I
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-  
-Governor.png
-BuildingIcons/Governor-Magnus IIA
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-  
-Governor.png
-BuildingIcons/Governor-Magnus IIB
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
- 
-Governor.png
-BuildingIcons/Governor-Magnus IIIA
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-  
-Governor.png
-BuildingIcons/Governor-Magnus IIIB
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-    
-Governor.png
-BuildingIcons/Governor-Pingala I
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
- 
-Governor.png
-BuildingIcons/Governor-Pingala IIA
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-   
-Governor.png
-BuildingIcons/Governor-Pingala IIB
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-      
-Governor.png
-BuildingIcons/Governor-Pingala IIIA
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1        
-
-      
-Governor.png
-BuildingIcons/Governor-Pingala IIIB
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1        
-      
-Governor.png
-BuildingIcons/Governor-Reina I
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1      
-      
-Governor.png
-BuildingIcons/Governor-Reina IIA
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-   
-Governor.png
-BuildingIcons/Governor-Reina IIB
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1        
-  
-Governor.png
-BuildingIcons/Governor-Reina IIIA
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1        
-
-      
-Governor.png
-BuildingIcons/Governor-Reina IIIB
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1        
-            
-Civilized leader.png
-BuildingIcons/Civilized Leader-Emperor Wu of Han
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-First Emperor of Qin
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-     
-Civilized leader.png
-BuildingIcons/Civilized Leader-Chairman Mao
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-  
-Civilized leader.png
-BuildingIcons/Civilized Leader-Leonidas
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-     
-Civilized leader.png
-BuildingIcons/Civilized Leader-Pericles
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
- 
-Civilized leader.png
-BuildingIcons/Civilized Leader-Alexander
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
- 
-Civilized leader.png
-BuildingIcons/Civilized Leader-Octavius
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-Cesar
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1                
-   
-Civilized leader.png
-BuildingIcons/Civilized Leader-Peter
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-Catherine
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1                            
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Sankara
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized leader-Lenin
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized leader-Stalin
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized leader-Trotsky
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Trotsky ability
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Omar Torrijos
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Constantine I
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-Justinian I
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Omar I
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-Saladin
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Bolivar
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized leader-Hafizullah Amin
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized leader-Daoud Khan
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Attila
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Cyrus
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-  
-Civilized leader.png
-BuildingIcons/Civilized Leader-Darius I
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized leader-Ramesses II
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized leader-Nasser
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized leader-Sadat
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Ho Chi Minh
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Dido
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Hannibal
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Napoleon
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-De Gaulle
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Louis XIV
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Yi Song-gye
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-Kim Il-sung
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Genghis Khan
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-Kublai
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Che Guevara
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-Fidel Castro
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Hammurabi
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-Nebuchadnezzar II
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized leader-Osman I
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-     
-Civilized leader.png
-BuildingIcons/Civilized leader-Suleiman
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Civilized leader.png
-BuildingIcons/Civilized leader-Kemal
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1
-  
-Civilized leader.png
-BuildingIcons/Civilized Leader-Wallace
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1
-  
-Civilized leader.png
-BuildingIcons/Civilized Leader-Tito
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-  
-Civilized leader.png
-BuildingIcons/Civilized Leader-Milosevic
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1    
-  
-Civilized leader.png
-BuildingIcons/Civilized Leader-Bismarck
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1      
-  
-Civilized leader.png
-BuildingIcons/Civilized Leader-Franklin D. Roosevelt
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1      
-    
-
-Civilized leader.png
-BuildingIcons/Civilized Leader-Croesus
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1      
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-Tomyris
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1            
-      
-Civilizedleaderability.png
-UnitPromotionIcons/TomyrisAbility
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1             
-      
-Civilized leader.png
-BuildingIcons/Pope-Francis
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1               
-      
-Civilized leader.png
-BuildingIcons/Civilized Leader-Pachacútec
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1                  
-      
-China.png
-NationIcons/China
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-  
-Scotland.png
-NationIcons/Scotland
-  rotate: false
-  xy: 0, 0
-  size: 170, 170
-  orig: 170, 170
-  offset: 0, 0
-  index: -1
-
-SovietUnion.png
-NationIcons/Soviet Union
-  rotate: false
-  xy: 0, 0
-  size: 260, 260
-  orig: 260, 260
-  offset: 0, 0
-  index: -1
-
-Mongolia.png
-NationIcons/Mongolia
-  rotate: false
-  xy: 0, 0
-  size: 1000, 1000
-  orig: 1000, 1000
-  offset: 0, 0
-  index: -1
-
-Cuba.png
-NationIcons/Cuba
-  rotate: false
-  xy: 0, 0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-
-TheStar.png
-NationIcons/Burkina Faso
-  rotate: false
-  xy: 0, 0
-  size: 250, 250
-  orig: 250, 250
-  offset: 0, 0
-  index: -1
-
-TheStar.png
-NationIcons/Vietnam
-  rotate: false
-  xy: 0, 0
-  size: 250, 250
-  orig: 250, 250
-  offset: 0, 0
-  index: -1
-
-Panama.png
-NationIcons/Panama
-  rotate: false
-  xy: 0, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-
-Columbia.png
-NationIcons/Columbia
-  rotate: false
-  xy: 0, 0
-  size: 550, 500
-  orig: 550, 500
-  offset: 0, 0
-  index: -1
-
-Afghanistan.png
-NationIcons/Afghanistan
-  rotate: false
-  xy: 0, 0
-  size: 250, 250
-  orig: 250, 250
-  offset: 0, 0
-  index: -1
-
-Egypt.png
-NationIcons/Egypt
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-
-Macedonia.png
-NationIcons/Macedonia
-  rotate: false
-  xy: 0, 0
-  size: 329, 329
-  orig: 329, 329
-  offset: 0, 0
-  index: -1
-  
-Turkey.png
-NationIcons/Turkey
-  rotate: false
-  xy: 0, 0
-  size: 210, 210
-  orig: 210, 210
-  offset: 0, 0
-  index: -1
-  
-Serbia.png
-NationIcons/Serbia
-  rotate: false
-  xy: 0, 0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1  
-  
-Lydia.png
-NationIcons/Lydia
-  rotate: false
-  xy: 0, 0
-  size: 135, 135
-  orig: 135, 135
-  offset: 0, 0
-  index: -1    
-  
-Scythian.png
-NationIcons/Scythian
-  rotate: false
-  xy: 0, 0
-  size: 230, 230
-  orig: 230, 230
-  offset: 0, 0
-  index: -1      
-  
-Vatican.png
-NationIcons/Vatican
-  rotate: false
-  xy: 0, 0
-  size: 105, 105
-  orig: 105, 105
-  offset: 0, 0
-  index: -1       
-  
-AdvancedCombatReadiness.png
-PolicyIcons/Advanced Combat Readiness
-  rotate: false
-  xy: 0,0
-  size: 53, 53
-  orig: 53, 53
-  offset: 0, 0
-  index: -1
-  
-PrimaryCombatReadiness.png
-PolicyIcons/Primary Combat Readiness
-  rotate: false
-  xy: 0,0
-  size: 47, 47
-  orig: 47, 47
-  offset: 0, 0
-  index: -1
-
-PartialWarMobilization.png
-PolicyIcons/Partial War Mobilization
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-  
-TotalWarMobilization.png
-PolicyIcons/Total War Mobilization
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-  
-StateofWar.png
-PolicyIcons/State of War
-  rotate: false
-  xy: 0,0
-  size: 51, 51
-  orig: 51, 51
-  offset: 0, 0
-  index: -1
-
-Governor.png
-ResourceIcons/Governor Point
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-  
-GovernorUpgradePoint.png
-ResourceIcons/Governor Upgrade Point
-  rotate: false
-  xy: 0, 0
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-
-CO2.png
-ResourceIcons/CO2
-  rotate: false
-  xy: 0, 0
-  size: 30, 30
-  orig: 30, 30
-  offset: 0, 0
-  index: -1
-
-Steel.png
-ResourceIcons/Steel
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-
-Saltpeter.png
-ResourceIcons/Saltpeter
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-
-GasIcon.png
-ResourceIcons/Gas
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-
-Electricity.png
-ResourceIcons/Electricity
-  rotate: false
-  xy: 0, 0
-  size: 50, 60
-  orig: 50, 60
-  offset: 0, 0
-  index: -1
-
-Mixedfuel.png
-ResourceIcons/Mixed fuel
-  rotate: false
-  xy: 0, 0
-  size: 50, 60
-  orig: 50, 60
-  offset: 0, 0
-  index: -1
-
-MonumentalWorkIcon.png
-ResourceIcons/Solt-The Kite Runner
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-
-MonumentalWorkIcon.png
-ResourceIcons/Solt-A Thousand Splendid Suns
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-
-MonumentalWorkIcon.png
-ResourceIcons/Solt-War and Peace
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-
-MonumentalWorkIcon.png
-ResourceIcons/Solt-Resurrection
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-
-SpaIcon.png
-ImprovementIcons/Spa
-  rotate: false
-  xy: 0, 0
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: -1
-
-GeothermalpowerplantIcon.png
-ImprovementIcons/Geothermal power plant
-  rotate: false
-  xy: 0, 0
-  size: 16, 16
-  orig: 16, 16
-  offset: 0, 0
-  index: -1
-
-SolarfarmIcon.png
-ImprovementIcons/Solar farm
-  rotate: false
-  xy: 0, 0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-
-VietnameseCityIcon.png
-ImprovementIcons/Vietnamese City
-  rotate: false
-  xy: 0, 0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-
-GasfieldIcon.png
-ImprovementIcons/Gas field
-  rotate: false
-  xy: 0, 0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-
-MonumentalWorkIcon.png
-ImprovementIcons/The Kite Runner
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-  
-MonumentalWorkIcon.png
-ImprovementIcons/A Thousand Splendid Suns
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-  
-MonumentalWorkIcon.png
-ImprovementIcons/War and Peace
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-  
-MonumentalWorkIcon.png
-ImprovementIcons/Resurrection
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1  
-  
-DrillWoodtoMakeFire.png
-TechIcons/Drill Wood to Make Fire
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-  
-BeliefWorship.png
-TechIcons/Belief Worship
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-
-BurialCustom.png
-TechIcons/Burial Custom
-  rotate: false
-  xy: 0, 0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1  
-
-Lumbering.png
-TechIcons/Lumbering
-  rotate: false
-  xy: 0, 0
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-  
-ReligiousCulture.png
-TechIcons/Religious Culture
-  rotate: false
-  xy: 0, 0
-  size: 90, 90
-  orig: 90, 90
-  offset: 0, 0
-  index: -1  
-  
-Nation.png
-TechIcons/Nation
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-  
-Politics.png
-TechIcons/Politics
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-  
-Army Formation.png
-TechIcons/Army Formation
-  rotate: false
-  xy: 0, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1  
-  
-Defensive Fortification.png
-TechIcons/Defensive Fortification
-  rotate: false
-  xy: 0, 0
-  size: 70, 70
-  orig: 70, 70
-  offset: 0, 0
-  index: -1  
-  
-Legislation.png
-TechIcons/Legislation
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1    
-
-National Defense.png
-TechIcons/National Defense
-  rotate: false
-  xy: 0, 0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1  
-  
-Steelmaking.png
-TechIcons/Steelmaking
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1     
-
-Diplomacy.png
-TechIcons/Diplomacy
-  rotate: false
-  xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1     
-
-Waterage.png
-TechIcons/Waterage
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1     
-
-TaxationAdministration.png
-TechIcons/Taxation Administration
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1     
-
-UtopiaProject.png
-TechIcons/Utopia Project
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-
-EXPO.png
-TechIcons/EXPO
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-
-WeatherManipulation.png
-TechIcons/Weather Manipulation
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-
-Persian Immortal(Ranged).png
-TileSets/AbsoluteUnits/Units/Persian Immortal(Ranged)
-  rotate: false
-  xy: 0, 0
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-
-GreatAdmiralLand.png
-TileSets/AbsoluteUnits/Units/Great Admiral
-  rotate: false
-  xy: 0, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-
-GreatAdmiralLand-1.png
-TileSets/AbsoluteUnits/Units/Great Admiral-1
-  rotate: false
-  xy: 0, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-
-GreatAdmiralLand-1.png
-TileSets/AbsoluteUnits/Units/Great Admiral-2
-  rotate: false
-  xy: 0, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-
-GreatAdmiralA.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral
-  rotate: false
-  xy: 0, 0
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-
-GreatAdmiralA-1.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-1
-  rotate: false
-  xy: 0, 0
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-
-GreatAdmiralA-1.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-2
-  rotate: false
-  xy: 0, 0
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-
-GreatAdmiralB.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era
-  rotate: false
-  xy: 0, 0
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-
-GreatAdmiralB-1.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-1
-  rotate: false
-  xy: 0, 0
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-  
-GreatAdmiralB-1.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-2
-  rotate: false
-  xy: 0, 0
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-  
-Saltpeterore.png
-TileSets/HexaRealm/Tiles/Saltpeter
-  rotate: false
-  xy: 0, 0
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1  
-  
-GeothermalCrevice.png
-TileSets/HexaRealm/Tiles/Geothermal Crevice
-  rotate: false
-  xy: 0, 0
-  size: 280, 280
-  orig: 280, 280
-  offset: 0, 0
-  index: -1
-
-Volcano.png
-TileSets/HexaRealm/Tiles/Volcano
-  rotate: false
-  xy: 0, 0
-  size: 300, 300
-  orig: 300, 300
-  offset: 0, 0
-  index: -1
-
-VolcanicSoil.png
-TileSets/HexaRealm/Tiles/Volcanic Soil
-  rotate: false
-  xy: 0, -15
-  size: 300, 300
-  orig: 300, 300
-  offset: 0, 0
-  index: -1
-
-Spa.png
-TileSets/HexaRealm/Tiles/Spa
-  rotate: false
-  xy: 0, 0
-  size: 60, 60
-  orig: 60, 60
-  offset: 0, 0
-  index: -1
-  
-VietnameseCity.png
-TileSets/HexaRealm/Tiles/Vietnamese City
-  rotate: false
-  xy: 0, 0
-  size: 60, 60
-  orig: 60, 60
-  offset: 0, 0
-  index: -1
-  
-Geothermalpowerplant.png
-TileSets/HexaRealm/Tiles/Geothermal power plant
-  rotate: false
-  xy: 0, 0
-  size: 280, 280
-  orig: 280, 280
-  offset: 0, 0
-  index: -1  
-  
-Solarfarm.png
-TileSets/HexaRealm/Tiles/Solar farm
-  rotate: false
-  xy: 0, 0
-  size: 250, 250
-  orig: 250, 250
-  offset: 0, 0
-  index: -1    
-
-Gas.png
-TileSets/HexaRealm/Tiles/Gas
-  rotate: false
-  xy: 0, 0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-
-Gasfield.png
-TileSets/HexaRealm/Tiles/Gas field
-  rotate: false
-  xy: 0, 0
-  size: 75, 75
-  orig: 75, 75
-  offset: 0, 0
-  index: -1
-  
-MonumentalWork.png
-TileSets/HexaRealm/Tiles/The Kite Runner
-  rotate: false
-  xy: 0, 0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-  
-MonumentalWork.png
-TileSets/HexaRealm/Tiles/A Thousand Splendid Suns
-  rotate: false
-  xy: 0, 0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1      
-  
-MonumentalWork.png
-TileSets/HexaRealm/Tiles/War and Peace
-  rotate: false
-  xy: 0, 0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-  
-MonumentalWork.png
-TileSets/HexaRealm/Tiles/Resurrection
-  rotate: false
-  xy: 0, 0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1        
-  
-GreatAdmiralIcon.png
-UnitIcons/Great Admiral
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
-  
-GreatAdmiralIcon.png
-UnitIcons/Lee Sunshin
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1   
-  
-GreatAuthorIcon.png
-UnitIcons/Khaled Hosseini
-  rotate: false
-  xy: 0,0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1   
-  
-GreatAuthorIcon.png
-UnitIcons/Lev Tolstoy
-  rotate: false
-  xy: 0,0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1     
-
-SovietWorkerIcon.png
-UnitIcons/SovietWorker
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
-
-T-34Icon.png
-UnitIcons/T-34
-  rotate: false
-  xy: 0,0
-  size: 354, 260
-  orig: 355, 260
-  offset: 0, 0
-  index: -1     
- 
-CowboyCavalryIcon.png
-UnitIcons/Cowboy Cavalry
-  rotate: false
-  xy: 0,0
-  size: 85, 85
-  orig: 85, 85
-  offset: 0, 0
-  index: -1         
-
-AncientChineseChariotIcon.png
-UnitIcons/Ancient Chinese Chariot
-  rotate: false
-  xy: 0,0
-  size: 75, 75
-  orig: 75, 75
-  offset: 0, 0
-  index: -1     
-  
-Persian Immortal(Ranged)Icon.png
-UnitIcons/Persian Immortal(Ranged)
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1    
-  
-HypaspistIcon.png
-UnitIcons/Hypaspist
-  rotate: false
-  xy: 0,0
-  size: 80, 90
-  orig: 80, 90
-  offset: 0, 0
-  index: -1      
-  
-War ElephantIcon.png
-UnitIcons/War Elephant
-  rotate: false
-  xy: 0,0
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1      
-  
-CubanInternationalRevolutionaryFighterIcon.png
-UnitIcons/Cuban International Revolutionary Fighter
-  rotate: false
-  xy: 0,0
-  size: 160, 160
-  orig: 160, 160
-  offset: 0, 0
-  index: -1      
-  
-BlackWatchIcon.png
-UnitIcons/Black Watch
-  rotate: false
-  xy: 0,0
-  size: 170, 170
-  orig: 170, 170
-  offset: 0, 0
-  index: -1      
-  
-CobraCommandoIcon.png
-UnitIcons/Cobra Commando
-  rotate: false
-  xy: 0,0
-  size: 75, 125
-  orig: 75, 125
-  offset: 0, 0
-  index: -1      
-  
-Heavy Spear CavalryIcon.png
-UnitIcons/Heavy Spear Cavalry
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1      
-  
-MobileArcherIcon.png
-UnitIcons/Mobile Archer
-  rotate: false
-  xy: 0,0
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1        
-      
-FatherIcon.png
-UnitIcons/Father
-  rotate: false
-  xy: 0,0
-  size: 210, 210
-  orig: 210, 210
-  offset: 0, 0
-  index: -1              
-      
-Hard.png
-UnitPromotionIcons/Hard
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1 
-  
-Trample.png
-UnitPromotionIcons/Trample
-  rotate: false
-  xy: 0,0
-  size: 70, 70
-  orig: 70, 70
-  offset: 0, 0
-  index: -1 
-  
-Formation.png
-UnitPromotionIcons/Formation
-  rotate: false
-  xy: 0,0
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1 
-  
-Aim.png
-UnitPromotionIcons/Aim
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
- 
-Arabability.png
-UnitPromotionIcons/正义信仰
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1      
- 
-Arabability.png
-UnitPromotionIcons/真主荣耀
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1     
- 
-Salvo.png
-UnitPromotionIcons/Salvo
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1 
- 
-Indirect Fire.png
-UnitPromotionIcons/Indirect Fire
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1  
- 
-Crossing the Mountain.png
-UnitPromotionIcons/Crossing the Mountain
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1 
- 
-Off-road.png
-UnitPromotionIcons/Off-road
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1     
-
-Well Equipped.png
-UnitPromotionIcons/Well Equipped
-  rotate: false
-  xy: 0,0
-  size: 70, 70
-  orig: 70, 70
-  offset: 0, 0
-  index: -1 
-  
-Morale Enhancement.png
-UnitPromotionIcons/Morale Enhancement
-  rotate: false
-  xy: 0,0
-  size: 70, 70
-  orig: 70, 70
-  offset: 0, 0
-  index: -1 
- 
-Defend the Motherland.png
-UnitPromotionIcons/Defend the Motherland
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
-  
-Hold Ground.png
-UnitPromotionIcons/Hold Ground
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1 
-  
-Street Battle.png
-UnitPromotionIcons/Street Battle
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1 
- 
-Charge.png
-UnitPromotionIcons/Charge
-  rotate: false
-  xy: 0,0
-  size: 45, 45
-  orig: 45, 45
-  offset: 0, 0
-  index: -1 
- 
-Wear Armor.png
-UnitPromotionIcons/Wear Armor
-  rotate: false
-  xy: 0,0
+  xy: 475, 1868
   size: 25, 25
   orig: 25, 25
   offset: 0, 0
-  index: -1  
- 
-First Attack.png
-UnitPromotionIcons/First Attack
+  index: -1
+OtherIcons/Capital
   rotate: false
-  xy: 0,0
-  size: 40, 40
-  orig: 40, 40
+  xy: 4, 1125
+  size: 107, 101
+  orig: 107, 101
   offset: 0, 0
-  index: -1     
-  
-Rush.png
-UnitPromotionIcons/Rush
+  index: -1
+OtherIcons/Checkmark
   rotate: false
-  xy: 0,0
+  xy: 4, 369
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/NextTurn
+  rotate: false
+  xy: 4, 369
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Circle
+  rotate: false
+  xy: 289, 1853
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+OtherIcons/Cities
+  rotate: false
+  xy: 4, 261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/CityState
+  rotate: false
+  xy: 436, 316
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1   
-  
-Raid.png
-UnitPromotionIcons/Raid
+  index: -1
+OtherIcons/CityStatus
   rotate: false
-  xy: 0,0
+  xy: 1816, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Close
+  rotate: false
+  xy: 1924, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/CrosshairB
+  rotate: false
+  xy: 298, 1268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Diplomacy
+  rotate: false
+  xy: 112, 895
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/DiplomacyW
+  rotate: false
+  xy: 112, 787
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/DisbandUnit
+  rotate: false
+  xy: 112, 679
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/ExclamationMark
+  rotate: false
+  xy: 112, 31
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Fire
+  rotate: false
+  xy: 4, 1234
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+OtherIcons/ForwardArrow
+  rotate: false
+  xy: 436, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1     
-
-Expose Armor.png
-UnitPromotionIcons/Expose Armor
+  index: -1
+OtherIcons/Hexagon
   rotate: false
-  xy: 0,0
+  xy: 4, 1791
+  size: 277, 240
+  orig: 277, 240
+  offset: 0, 0
+  index: -1
+OtherIcons/HexagonOutline
+  rotate: false
+  xy: 4, 1543
+  size: 277, 240
+  orig: 277, 240
+  offset: 0, 0
+  index: -1
+OtherIcons/Improvements
+  rotate: false
+  xy: 494, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1     
-  
-Expose Armor.png
-UnitPromotionIcons/Armor Piercing
+  index: -1
+OtherIcons/Keyboard
   rotate: false
-  xy: 0,0
+  xy: 1399, 1823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Link
+  rotate: false
+  xy: 552, 447
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1  
-  
-Pass.png
-UnitPromotionIcons/Pass
+  index: -1
+OtherIcons/Load
   rotate: false
-  xy: 0,0
-  size: 40, 40
-  orig: 40, 40
+  xy: 1507, 1823
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
-  index: -1       
-  
-Escort.png
-UnitPromotionIcons/Escort
+  index: -1
+OtherIcons/LockSmall
   rotate: false
-  xy: 0,0
+  xy: 552, 389
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1    
-  
-Escort.png
-UnitPromotionIcons/Queue
+  index: -1
+OtherIcons/MapEditor
   rotate: false
-  xy: 0,0
+  xy: 1831, 1823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/MenuIcon
+  rotate: false
+  xy: 1939, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Mods
+  rotate: false
+  xy: 967, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Multiplayer
+  rotate: false
+  xy: 1075, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/NationSwap
+  rotate: false
+  xy: 1183, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Nations
+  rotate: false
+  xy: 552, 99
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1      
-
-Landfall.png
-UnitPromotionIcons/Landfall
+  index: -1
+OtherIcons/New
   rotate: false
-  xy: 0,0
+  xy: 1291, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Notifications
+  rotate: false
+  xy: 1507, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Options
+  rotate: false
+  xy: 1939, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Pause
+  rotate: false
+  xy: 552, 41
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1    
-  
-Armor.png
-UnitPromotionIcons/Armor
+  index: -1
+OtherIcons/Pencil
   rotate: false
-  xy: 0,0
+  xy: 406, 1313
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Pentagon
+  rotate: false
+  xy: 406, 1205
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Pillage
+  rotate: false
+  xy: 514, 1253
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Politics
+  rotate: false
+  xy: 751, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/WorldCongressVote
+  rotate: false
+  xy: 751, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Present
+  rotate: false
+  xy: 1075, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Puppet
+  rotate: false
+  xy: 289, 1592
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+OtherIcons/Quest
+  rotate: false
+  xy: 1291, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Question
+  rotate: false
+  xy: 1399, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Quickstart
+  rotate: false
+  xy: 1507, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Remove Heresy
+  rotate: false
+  xy: 859, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Resources
+  rotate: false
+  xy: 1399, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Resume
+  rotate: false
+  xy: 1507, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Search
+  rotate: false
+  xy: 1831, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/SecretOptions
+  rotate: false
+  xy: 1939, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Settings
+  rotate: false
+  xy: 227, 1111
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Shield
+  rotate: false
+  xy: 220, 895
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Sleep
+  rotate: false
+  xy: 220, 571
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Speaker
+  rotate: false
+  xy: 220, 463
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Spy
+  rotate: false
+  xy: 220, 139
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Spy_White
+  rotate: false
+  xy: 220, 31
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Star
+  rotate: false
+  xy: 335, 1103
+  size: 100, 94
+  orig: 100, 94
+  offset: 0, 0
+  index: -1
+OtherIcons/Swap
+  rotate: false
+  xy: 328, 779
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Timer
+  rotate: false
+  xy: 328, 563
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Triangle
+  rotate: false
+  xy: 4, 1357
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+OtherIcons/Turn right
+  rotate: false
+  xy: 328, 239
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Tyrannosaurus
+  rotate: false
+  xy: 328, 131
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/WLTKD
+  rotate: false
+  xy: 436, 490
+  size: 83, 65
+  orig: 83, 65
+  offset: 0, 0
+  index: -1
+OtherIcons/Wait
+  rotate: false
+  xy: 436, 995
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Wonders
+  rotate: false
+  xy: 436, 563
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/whiteDot
+  rotate: false
+  xy: 289, 1583
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+ResourceIcons/Aluminum
+  rotate: false
+  xy: 4, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bananas
+  rotate: false
+  xy: 4, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cattle
+  rotate: false
+  xy: 1384, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Citrus
+  rotate: false
+  xy: 1600, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Coal
+  rotate: false
+  xy: 190, 1435
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Copper
+  rotate: false
+  xy: 190, 1327
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cotton
+  rotate: false
+  xy: 298, 1484
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Crab
+  rotate: false
+  xy: 298, 1376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Deer
+  rotate: false
+  xy: 112, 1003
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Dyes
+  rotate: false
+  xy: 112, 247
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Fish
+  rotate: false
+  xy: 535, 1685
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Furs
+  rotate: false
+  xy: 751, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Gems
+  rotate: false
+  xy: 859, 1823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Gold Ore
+  rotate: false
+  xy: 967, 1823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Horses
+  rotate: false
+  xy: 1075, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Incense
+  rotate: false
+  xy: 1183, 1823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Iron
+  rotate: false
+  xy: 1183, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ivory
+  rotate: false
+  xy: 1291, 1823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Jewelry
+  rotate: false
+  xy: 1291, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Marble
+  rotate: false
+  xy: 1831, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Oil
+  rotate: false
+  xy: 1723, 1607
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Pearls
+  rotate: false
+  xy: 406, 1421
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Porcelain
+  rotate: false
+  xy: 967, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Salt
+  rotate: false
+  xy: 1723, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sheep
+  rotate: false
+  xy: 220, 1003
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Silk
+  rotate: false
+  xy: 220, 787
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Silver
+  rotate: false
+  xy: 220, 679
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Spices
+  rotate: false
+  xy: 220, 247
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Stone
+  rotate: false
+  xy: 328, 995
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sugar
+  rotate: false
+  xy: 328, 887
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Truffles
+  rotate: false
+  xy: 328, 347
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Uranium
+  rotate: false
+  xy: 328, 23
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Whales
+  rotate: false
+  xy: 436, 887
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Wheat
+  rotate: false
+  xy: 436, 779
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Wine
+  rotate: false
+  xy: 436, 671
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Acquire
+  rotate: false
+  xy: 4, 1017
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/CityConnection
+  rotate: false
+  xy: 475, 1901
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+StatIcons/Culture
+  rotate: false
+  xy: 427, 1745
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Food
+  rotate: false
+  xy: 643, 1700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Gold
+  rotate: false
+  xy: 859, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Happiness
+  rotate: false
+  xy: 967, 1715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/InterceptRange
+  rotate: false
+  xy: 527, 505
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1      
- 
-Shooting Support.png
-UnitPromotionIcons/Shooting Support
+  index: -1
+StatIcons/Malcontent
   rotate: false
-  xy: 0,0
+  xy: 1723, 1823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Population
+  rotate: false
+  xy: 859, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileIcons/Worked
+  rotate: false
+  xy: 859, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Range
+  rotate: false
+  xy: 544, 1029
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1     
- 
-Bayonet Charge.png
-UnitPromotionIcons/Bayonet Charge
+  index: -1
+StatIcons/RangedStrength
   rotate: false
-  xy: 0,0
+  xy: 544, 971
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1         
- 
-Apply Poison.png
-UnitPromotionIcons/Apply Poison
+  index: -1
+StatIcons/ReligiousStrength
   rotate: false
-  xy: 0,0
+  xy: 1831, 1499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Resistance
+  rotate: false
+  xy: 613, 1916
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+StatIcons/Specialist
+  rotate: false
+  xy: 220, 355
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Strength
+  rotate: false
+  xy: 544, 855
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1               
-       
-Bombard.png
-UnitPromotionIcons/Bombard
+  index: -1
+TileIcons/Blockaded
   rotate: false
-  xy: 0,0
+  xy: 1168, 1931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileIcons/Buy
+  rotate: false
+  xy: 4, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileIcons/CityCenter
+  rotate: false
+  xy: 4, 45
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileIcons/Locked
+  rotate: false
+  xy: 1615, 1823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileIcons/MapOverlayToggleMovement
+  rotate: false
+  xy: 552, 331
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1                   
-   
-Shrapnel.png
-UnitPromotionIcons/Shrapnel
+  index: -1
+TileIcons/MapOverlayToggleResources
   rotate: false
-  xy: 0,0
+  xy: 552, 273
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1                   
-   
-Strategic Deployment.png
-UnitPromotionIcons/Strategic Deployment
+  index: -1
+TileIcons/MapOverlayToggleWorkedTiles
   rotate: false
-  xy: 0,0
+  xy: 552, 215
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1    
-   
-Firepower Coverage.png
-UnitPromotionIcons/Firepower Coverage
+  index: -1
+TileIcons/MapOverlayToggleYields
   rotate: false
-  xy: 0,0
+  xy: 552, 157
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
-  index: -1 
-  
-Cruise.png
-UnitPromotionIcons/Cruise
+  index: -1
+TileIcons/NotWorked
   rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  xy: 1399, 1607
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
-  index: -1                    
-   
-Fire Support.png
-UnitPromotionIcons/Fire Support
+  index: -1
+UniqueIcons/Fallback
   rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  xy: 427, 1637
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
-  index: -1           
-   
-Dive.png
-UnitPromotionIcons/Dive
+  index: -1
+UnitTypeIcons/DomainAir
   rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  xy: 112, 571
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
-  index: -1              
-   
-Noise Reduction.png
-UnitPromotionIcons/Noise Reduction
+  index: -1
+UnitTypeIcons/DomainLand
   rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  xy: 112, 463
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
-  index: -1      
-   
-Tactical Evasion.png
-UnitPromotionIcons/Tactical Evasion
+  index: -1
+OtherIcons/Terrains
   rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  xy: 112, 463
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
-  index: -1      
-   
-Mountain Guerrilla.png
-UnitPromotionIcons/Mountain Guerrilla
+  index: -1
+UnitTypeIcons/DomainWater
   rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
+  xy: 112, 355
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
-  index: -1   
-    
-Rout.png
-UnitPromotionIcons/Rout
-  rotate: false
-  xy: 0,0
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1        
-    
+  index: -1
