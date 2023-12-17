@@ -1,0 +1,15 @@
+[
+    {
+    "name": "Aukuras",
+    "replaces": "shrine",
+    "uniqueTo": "Akmene",
+    "faith": 1,
+    "culture": 1,
+    "happiness": 1,
+
+    "cost": 55,
+    "maintenance": 1,
+    "requiredTech": "Philosophy"
+
+    }
+]
