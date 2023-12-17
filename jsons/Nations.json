@@ -20,8 +20,7 @@
         "outerColor": [140, 20, 60],
         "innerColor": [60, 20, 140],
 
-        "uniques": ["[+1] Movement <for [All] units> <when at war>", "No movement cost to pillage <for [Melee] units>", "Starts with [Animal Husbandry]", 
-        "[+2 Food] [in all cities] <with [1] to [2] neighboring [unimproved] [Mountain] tiles]>"],
+        "uniques": ["[+1] Movement <for [All] units> <when at war>", "No movement cost to pillage <for [Melee] units>", "Starts with [Animal Husbandry]"],
 
         "cities": ["Naujoji Akmene", "Akmene", "Akemene Lenkijoje", "Akmene Latvijoje", "Akmene Estijoje", "Akemene Suomijoje", "Naujasis krastas"]
 

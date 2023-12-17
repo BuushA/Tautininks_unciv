@@ -6,10 +6,8 @@
         "movement": 1, 
         "strength": 2, 
         "cost": 15, 
-        "upgradesTo": "scout", 
-        "uniques": ["All tile cost 1 movement"],
-
-
+    },
+    {
         "name": "Ne goat",
         "unitType": "Civilian",
         "uniqueTo": "Akmene",
@@ -18,9 +16,9 @@
         "cost": 30,
         "requiredTech": "Writing",
         "obsoleteTech": "Philosophy",
-        "uniques": "Can transform to [Labiau ne goat]",
-        "upgradesTo": "Labiau ne goat",
-        
+        "upgradesTo": "Labiau ne goat"
+    },
+    {
         "name": "Labiau ne goat",
         "unitType": "Civilian",
         "uniqueTo": "Akmene",
@@ -28,7 +26,7 @@
         "strength": 1, 
         "cost": 450,
         "requiredTech": "Writing",
-        "obsoleteTech": "Philosophy",
-        "uniques": "Can transform to [Labiau ne goat]"
-    }      
+        "obsoleteTech": "Philosophy"
+
+    }
 ]

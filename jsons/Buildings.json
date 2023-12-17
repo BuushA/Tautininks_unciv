@@ -1,7 +1,7 @@
 [
     {
     "name": "Aukuras",
-    "replaces": "shrine",
+    "replaces": "Shrine",
     "uniqueTo": "Akmene",
     "faith": 1,
     "culture": 1,
