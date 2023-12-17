@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Goat",
+        "unitType": "Civilian", 
+        "uniqueTo": "Akmene",
+        "movement": 1, 
+        "strength": 2, 
+        "cost": 15, 
+    },
+    {
+        "name": "Ne goat",
+        "unitType": "Civilian",
+        "uniqueTo": "Akmene",
+        "movement": 2, 
+        "strength": 7, 
+        "cost": 30,
+            "uniques": ["Can transform to [Labiau ne goat]"],
+        "requiredTech": "Writing",
+        "obsoleteTech": "Philosophy",
+        "upgradesTo": "Labiau ne goat"
+    },
+    {
+        "name": "Labiau ne goat",
+        "unitType": "Civilian",
+        "uniqueTo": "Akmene",
+        "movement": 10, 
+        "strength": 1, 
+        "cost": 450,
+            "uniques": ["Can transform to [Ne goat]"],
+        "requiredTech": "Writing",
+        "obsoleteTech": "Philosophy"
+
+    }
+]
