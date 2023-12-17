@@ -14,6 +14,7 @@
         "movement": 2, 
         "strength": 7, 
         "cost": 30,
+            "uniques": ["Can transform to [Labiau ne goat]"],
         "requiredTech": "Writing",
         "obsoleteTech": "Philosophy",
         "upgradesTo": "Labiau ne goat"
@@ -25,6 +26,7 @@
         "movement": 10, 
         "strength": 1, 
         "cost": 450,
+            "uniques": ["Can transform to [Ne goat]"],
         "requiredTech": "Writing",
         "obsoleteTech": "Philosophy"
 
