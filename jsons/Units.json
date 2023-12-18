@@ -34,7 +34,9 @@
     {
         "name": "Baudziauninkas",
         "unitType": "Civilian",
-        "uniques": [ "Unbuildable", "Uncapturable"],
+        "uniques": [ "Unbuildable", "Uncapturable", 
+        "Can instantly construct a [Farm] improvement <by consuming this unit>", 
+        "Can instantly construct a [Mine] improvement <by consuming this unit>"], 
         "movement": 2
     }
 ]
