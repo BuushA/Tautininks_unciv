@@ -30,7 +30,8 @@
         "requiredTech": "Writing",
         "obsoleteTech": "Philosophy"
 
-    }{ "name": "Vezimas",
+    },
+    { "name": "Vezimas",
      "unitType": "civilian",
       "movement": 2,
     "  cost":1,
