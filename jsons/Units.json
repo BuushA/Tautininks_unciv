@@ -5,7 +5,7 @@
         "uniqueTo": "Akmene",
         "movement": 1, 
         "strength": 2, 
-        "cost": 15, 
+        "cost": 15 
     },
     {
         "name": "Ne goat",
@@ -30,5 +30,11 @@
         "requiredTech": "Writing",
         "obsoleteTech": "Philosophy"
 
+    },
+    {
+        "name": "Baudziauninkas",
+        "unitType": "Civilian",
+        "uniques": [ "Unbuildable", "Uncapturable"],
+        "movement": 2
     }
 ]

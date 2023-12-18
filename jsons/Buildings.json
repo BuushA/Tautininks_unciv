@@ -9,7 +9,17 @@
 
     "cost": 55,
     "maintenance": 1,
-    "requiredTech": "Philosophy"
+    "requiredTech": "Pottery"
+
+    },
+    {
+    "name": "dvaro zeme",
+    "food": 1,
+
+    "cost": 100,
+    "maintenance": 2,
+    "uniques": ["[1] free [Baudziauninkas] units appear"],
+    "requiredTech": "Mining"
 
     }
 ]
