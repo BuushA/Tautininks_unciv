@@ -70,7 +70,11 @@
         "[+15]% Strength bonus for [Military] units within [2] tiles <then above[1] [Iron]>"],
         "movement": 2
     }
-
+{
+    "name": "supply convoy",
+  "unitType": "Civilian",
+    
+    
 
 
 ]
