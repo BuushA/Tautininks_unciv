@@ -43,7 +43,7 @@
         "uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [8] tiles",
-            "[+15]% Strength bonus for [Military] units within [8] tiles <then above [3] [Iron]>",
+            //"[+15]% Strength bonus for [Military] units within [8] tiles <then above [3] [Iron]>", Neveikia kolkas
             "Can instantly construct a [Citadel] improvement <by consuming this unit>"],
             //<then above [0] [leaderio resursas]>
         "movement": 2,
@@ -55,8 +55,8 @@
         "uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [4] tiles",
-            "[+15]% Strength bonus for [Military] units within [4] tiles <then above [2] [Iron]>"],
+            "[+15]% Strength bonus for [Military] units within [4] tiles"],
+           // "[+15]% Strength bonus for [Military] units within [4] tiles <then above [2] [Iron]>"], Neveikia kolkas
         "movement": 2,
         "cost": 500
 
@@ -66,12 +66,9 @@
         "unitType": "Civilian",
         "uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","Can instantly construct a [Citadel] improvement <by consuming this unit>",
         "Great Person - [War]", "Unbuildable", "Uncapturable",
-        "[+15]% Strength bonus for [Military] units within [2] tiles",
-        "[+15]% Strength bonus for [Military] units within [2] tiles <then above[1] [Iron]>"],
+        "[+15]% Strength bonus for [Military] units within [2] tiles"],
+        //"[+15]% Strength bonus for [Military] units within [2] tiles <then above[1] [Iron]>"], neveikia
         "movement": 2
     }
-
-
-
 ]
-//
+
