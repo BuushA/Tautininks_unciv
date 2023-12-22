@@ -1,0 +1,51 @@
+[
+ // Ranged+Siege
+    {
+        "name": "Accuracy III",
+        "prerequisites": ["Accuracy II"],
+        "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[+15]% Strength bonus for [Military] units within [1] tiles"],
+        "unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+        "column": 1,
+        "row": 3
+    },
+    {
+		"name": "Barrage III",
+		"prerequisites": ["Barrage II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[+15]% Strength bonus for [Military] units within [1] tiles"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+        "column": 2,
+        "row": 3
+    },
+{"name": "Logistics",
+		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
+			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
+		"uniques": ["[1] additional attacks per turn", "Can move after attacking","[+15]% Strength bonus for [Military] units within [1] tiles <then attacking >",
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
+        "column": 24,
+        "row": 5,
+			},
+// Melee, Mounted+Armor
+    {
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>", "[+15]% Strength bonus for [Military] units within [1] tiles"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 4,
+        "row": 3
+	},
+    {
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "[+15]% Strength bonus for [Military] units within [1] tiles"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 5,
+        "row": 3
+	}
+{"name": "Blitz",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["[1] additional attacks per turn","[+15]% Strength bonus for [Military] units within [1] tiles <then attacking >"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 6,
+        "row": 4
+},
+]
